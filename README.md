@@ -3,6 +3,7 @@ This MATLAB package can be used for decomposing multi-channel electromyography s
 The package implements a blind source separation alogorithm based on the paper published by [Negro et al. (2016)](https://iopscience.iop.org/article/10.1088/1741-2560/13/2/026027/meta).
 
 A MATLAB GUI is developed to visualize the results of the algorithm. The source code for this MATLAB GUI can be found in the `visualization app` directory.
+You can install the visualization app using the `EMGdecomp_Visualization_App.mlappinstall` file in the `visulaization app` directory. 
 
 To run the algorithm use the `decompose` function. Note that the `decompose` function relies on the functions in the `funcs` directory.    
 ```
